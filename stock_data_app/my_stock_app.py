@@ -15,7 +15,7 @@ st.write("# Simple Stock Price Scrapper")
 stock_symbol = st.text_input("Please enter Stock name here:", "AAPL")
 
 # enter the interval in days
-interval = st.text_input("Please enter the nuumber of days you want to see historic data of: ", "365")
+interval = st.text_input("Please enter the number of days you want to see historic data of: ", "365")
 interval = int(interval)
 
 def stock_scrapper(stock_symbol, interval):
